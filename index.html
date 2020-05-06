@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>waxom</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:400,500,600,800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/popup.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header" style="background-image: url(image/bg.png);">
+            <!-- header - menu -->
+            <div class="header-content">
+                <div class="container">
+                    <div class="header-wrapper">
+                        <a href="index.html" class="logo">
+                            <img width="182" height="55" src="image/logo.swg" alt="waxom" />
+                        </a>
+
+                        <nav>
+                            <span id="trigger" class="trigger">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </span>
+                            <ul class="menu" id="menu">
+                                <li><a href="#about-agency">Home</a></li>
+                                <li><a href="#contact">About us</a></li>
+                                <li><a href="snow.portfolio.html">Portfolio</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Shortcodes</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                            <div class="nav-cart">
+                                <a href="#" class="icon-shopping-bag"></a>
+                                <div class="dropdown">
+                                    <a href="#" class="icon-search dropbtn-search" onclick="myFunction()"></a>
+                                    <div id="myDropdown" class="dropdown-content-search">
+                                        <input type="text" placeholder="Search.." />
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- header - menu - end -->
+            <!-- header slogan start -->
+            <div class="header-slogan">
+                <div class="header-slogan-content">
+                    <h1>Unique and Modern Design</h1>
+                    <span>Portfolio PSD Template</span>
+                    <p>
+                        Nam liber tempor cum soluta nobis eleifend option congue nihil
+                        imperdiet doming id quod mazim placerat facer possim assum.
+                    </p>
+                    <button>Get Started</button>
+                    <div class="btn-down">
+                        <a href="#services" class="icon-circle-right"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <!-- header slogan end -->
+            <!-- services start -->
+            <section class="services" id="services">
+                <div class="container">
+                    <div class="services-items">
+                        <a class="item">
+                            <i class="icon-pencil2"></i>
+                            <span>Web & App Design</span>
+                            <p>
+                                Nam liber tempor cum soluta nobis eleifend option congue nihil
+                                imperdiet doming id quod mazim.
+                            </p>
+                        </a>
+                        <a class="item">
+                            <i class="icon-manage"></i>
+                            <span>Development</span>
+                            <p>
+                                Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy
+                                nibh euismod tincidunt ut laoreet.
+                            </p>
+                        </a>
+                        <a class="item">
+                            <i class="icon-cog"></i>
+                            <span>Customization</span>
+                            <p>
+                                Nam liber tempor cum soluta nobis eleifend option congue nihil
+                                imperdiet doming id quod mazim.
+                            </p>
+                        </a>
+                        <a class="item">
+                            <i class="icon-mug"></i>
+                            <span>Marketing</span>
+                            <p>
+                                Nam liber tempor cum soluta nobis eleifend option congue nihil
+                                imperdiet doming id quod mazim.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- services end -->
+            <!-- banner start -->
+            <section class="banner">
+                <div class="container">
+                    <div class="banner-content">
+                        <h2>Waxom is Realization of your Ideas.</h2>
+                        <p>
+                            Investigationes demonstraverunt lectores legere me lius quod ii
+                            legunt saepius. Claritas est etiam processus dynamicus, qui
+                            sequitur mutationem consuetudium.
+                        </p>
+                    </div>
+                    <img src="image/browser-images.png" alt="Waxom-is-Realization-of-your-Ideas" class="banner-img" />
+                </div>
+            </section>
+            <!-- banner end -->
+            <!-- purchase-wordpress start -->
+            <section class="purchase-wordpress">
+                <div class="container">
+                    <div class="row">
+                        <div class="purchase-wordpress-content">
+                            <strong><span class="yellow-logo">Waxom </span> Multipurpose
+                                WordPress Theme</strong>
+                            <span class="purchase-wordpress-text">Don't Forget to Rate the Template. Thanks so
+                                much!</span>
+                        </div>
+                        <div class="purchase-button"><button>Purchase Now</button></div>
+                    </div>
+                </div>
+            </section>
+            <!-- purchase-wordpress end -->
+            <!-- latest-project start -->
+            <section class="latest-project">
+                <div class="container">
+                    <div class="min-container latest-project-title">
+                        <h2>Our Latest Projects.</h2>
+                        <p>
+                            Investigationes demonstraverunt lectores legere me lius quod ii
+                            legunt saepius. Claritas est etiam processus dynamicus, qui
+                            sequitur mutationem consuetudium.
+                        </p>
+                        <div id="btn-filters">
+                            <button class="btn-filter active" onclick="filterSelection('all')">
+                                all
+                            </button>
+                            <button class="btn-filter" onclick="filterSelection('design')">
+                                web design
+                            </button>
+                            <button class="btn-filter" onclick="filterSelection('mobile-app')">
+                                mobile app
+                            </button>
+                            <button class="btn-filter" onclick="filterSelection('illustration')">
+                                illustration
+                            </button>
+                            <button class="btn-filter" onclick="filterSelection('photography')">
+                                photography
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col  filter photography">
+                            <div class="project-item">
+                                <a href="#" style="background-image: url(image/Project-1.png);"
+                                    class="project-item-img">
+                                    <div class="item-overlay">
+                                        <a href="#" class="icon-link"></a>
+                                        <a href="#" class="icon-search"></a>
+                                    </div>
+                                </a>
+                                <div class="project-item-dsc">
+                                    <a href="#">Claritas Etiam Processus</a>
+                                    <span>Photography, Nature</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col  filter design">
+                            <div class="project-item">
+                                <a href="#" style="background-image: url(image/Project-2.png);"
+                                    class="project-item-img">
+                                    <div class="item-overlay">
+                                        <a href="#" class="icon-link"></a>
+                                        <a href="#" class="icon-search"></a>
+                                    </div>
+                                </a>
+                                <div class="project-item-dsc">
+                                    <a href="#">Quam Nutamus Farum</a>
+                                    <span>Graphic Design, Mock-Up</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col  filter photography">
+                            <div class="project-item">
+                                <a href="#" style="background-image: url(image/Project-3.png);"
+                                    class="project-item-img">
+                                    <div class="item-overlay">
+                                        <a href="#" class="icon-link"></a>
+                                        <a href="#" class="icon-search"></a>
+                                    </div>
+                                </a>
+                                <div class="project-item-dsc">
+                                    <a href="#">Usus Legentis Videntur</a>
+                                    <span>Photography, Holiday</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col  filter photography">
+                            <div class="project-item">
+                                <a href="#" style="background-image: url(image/Project-4.png);"
+                                    class="project-item-img">
+                                    <div class="item-overlay">
+                                        <a href="#" class="icon-link"></a>
+                                        <a href="#" class="icon-search"></a>
+                                    </div>
+                                </a>
+                                <div class="project-item-dsc">
+                                    <a href="#">Claritas Etiam Processus</a>
+                                    <span>Photography, Nature</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col  filter design">
+                            <div class="project-item">
+                                <a href="#" style="background-image: url(image/Project-5.png);"
+                                    class="project-item-img">
+                                    <div class="item-overlay">
+                                        <a href="#" class="icon-link"></a>
+                                        <a href="#" class="icon-search"></a>
+                                    </div>
+                                </a>
+                                <div class="project-item-dsc">
+                                    <a href="#">Quam Nutamus Farum</a>
+                                    <span>Graphic Design, Mock-Up</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col  filter photography">
+                            <div class="project-item">
+                                <a href="#" style="background-image: url(image/Project-6.png);"
+                                    class="project-item-img">
+                                    <div class="item-overlay">
+                                        <a href="#" class="icon-link"></a>
+                                        <a href="#" class="icon-search"></a>
+                                    </div>
+                                </a>
+                                <div class="project-item-dsc">
+                                    <a href="#">Usus Legentis Videntur</a>
+                                    <span>Photography, Holiday</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="load-more">
+                        <button>load more</button>
+                    </div>
+                </div>
+            </section>
+            <!-- latest-project end -->
+            <!-- video-presentation start -->
+            <section class="video-presentation" style="background-image: url(image/video-presentation-bg.png);">
+                <div class="container">
+                    <div class="min-container video-player">
+                        <a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto"
+                            style="background-image: url(image/play-btn.png);"></a>
+                        <h2 class="video-header">Waxom Video Presentation</h2>
+                        <p class="video-dsc">
+                            Investigationes demonstraverunt lectores legere me lius quod ii
+                            legunt saepius, qui sequitur mutationem consuetudium.
+                        </p>
+                        <span class="video-time">03:26</span>
+                    </div>
+                </div>
+            </section>
+            <!-- video-presentation end -->
+            <!-- excellent-for-mobile-devices start -->
+            <section class="excellent-for-mobile-devices">
+                <div class="container">
+                    <div class="excellent-for-mobile-devices__wrapper">
+                        <div class="excellent-for-mobile-devices__img"
+                            style="background-image: url(image/mobile-device.png);"></div>
+                        <div class="excellent-for-mobile-devices__content">
+                            <strong class="excellent-for-mobile-devices__header">Excellent for Mobile Devices.</strong>
+                            <p class="excellent-for-mobile-devices__text">
+                                Qisi enim ad minim veniam, quis nostrud exerci tation
+                                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                                consequat. Investigationes demonstraverunt lectores legere me
+                                lius quod ii legunt saepius claritas. Eodem modo typi, qui
+                                nunc nobis videntur parum clari, fiant sollemnes in futurum.
+                            </p>
+                            <ul class="excellent-for-mobile-devices__features">
+                                <li>Nam liber tempor cum soluta nobis eleifend option;</li>
+                                <li>
+                                    Option congue nihil imperdiet doming id quod mazim placerat
+                                    facer;
+                                </li>
+                                <li>
+                                    Eodem modo typi, qui nunc nobis videntur parum futurum;
+                                </li>
+                                <li>Investigationes demonstraverunt lectores</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- excellent-for-mobile-devices end -->
+            <!-- counters start -->
+            <section class="counters">
+                <div class="container">
+                    <div class="row int-fact-counters">
+                        <div class="col counters-item int-fct-item">
+                            <div class="counters-icon" style="background-image: url(image/satisfied-client.png);"></div>
+                            <div class="counters-number fct-count">3587</div>
+                            <div class="counters-header">Satisfied Clients</div>
+                        </div>
+                        <div class="col counters-item int-fct-item">
+                            <div class="counters-icon" style="background-image: url(image/cup-of-cofee.png);"></div>
+                            <div class="counters-number fct-count">207</div>
+                            <div class="counters-header">Cups of coffee</div>
+                        </div>
+                        <div class="col counters-item int-fct-item">
+                            <div class="counters-icon" style="background-image: url(image/blog-posts.png);"></div>
+                            <div class="counters-number fct-count">2500</div>
+                            <div class="counters-header">Blog posts</div>
+                        </div>
+                        <div class="col counters-item int-fct-item">
+                            <div class="counters-icon" style="background-image: url(image/likes.png);"></div>
+                            <div class="counters-number fct-count">873</div>
+                            <div class="counters-header">Likes</div>
+                        </div>
+                        <div class="col counters-item int-fct-item">
+                            <div class="counters-icon" style="background-image: url(image/we-launched.png);"></div>
+                            <div class="counters-number fct-count">900</div>
+                            <div class="counters-header">We launched</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- counters end -->
+            <!-- recent-posts start -->
+            <section class="recent-posts">
+                <div class="container">
+                    <div class="min-container">
+                        <h2>Recent Posts.</h2>
+                        <p class="recent-posts__dsc">
+                            Investigationes demonstraverunt lectores legere me lius quod ii
+                            legunt saepius. Claritas est etiam processus dynamicus, qui
+                            sequitur mutationem consuetudium.
+                        </p>
+                    </div>
+                    <div class="blog-posts">
+                        <div class="posts-list-item">
+                            <div class="post">
+                                <a href="#" style="background-image: url(image/post-1.png);" class="post-img">
+                                    <div class="post-img__overlay"></div>
+                                    <div class="post-day">
+                                        <span class="post-day__date">30</span>
+                                        <span class="post-day__month">Sep.</span>
+                                    </div>
+                                </a>
+                                <div class="post-dsc">
+                                    <a href="#">Lorem ipsum dolor sit amet</a>
+                                    <p>
+                                        Claritas est etiam processus dynamicus, qui sequitur
+                                        mutationem consuetudium.
+                                    </p>
+                                    <a href="#" class="read-more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="posts-list-item">
+                            <div class="post">
+                                <a href="#" style="background-image: url(image/post-2.png);" class="post-img">
+                                    <div class="post-img__overlay"></div>
+                                    <div class="post-day">
+                                        <span class="post-day__date">30</span>
+                                        <span class="post-day__month">Sep.</span>
+                                    </div>
+                                </a>
+                                <div class="post-dsc">
+                                    <a href="#">Lorem ipsum dolor sit amet</a>
+                                    <p>
+                                        Claritas est etiam processus dynamicus, qui sequitur
+                                        mutationem consuetudium.
+                                    </p>
+                                    <a href="#" class="read-more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="posts-list-item">
+                            <div class="post">
+                                <a href="#" style="background-image: url(image/post-3.png);" class="post-img">
+                                    <div class="post-img__overlay"></div>
+                                    <div class="post-day">
+                                        <span class="post-day__date">30</span>
+                                        <span class="post-day__month">Sep.</span>
+                                    </div>
+                                </a>
+                                <div class="post-dsc">
+                                    <a href="#">Lorem ipsum dolor sit amet</a>
+                                    <p>
+                                        Claritas est etiam processus dynamicus, qui sequitur
+                                        mutationem consuetudium.
+                                    </p>
+                                    <a href="#" class="read-more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="posts-list-item">
+                            <div class="post">
+                                <a href="#" style="background-image: url(image/post-1.png);" class="post-img">
+                                    <div class="post-img__overlay"></div>
+                                    <div class="post-day">
+                                        <span class="post-day__date">30</span>
+                                        <span class="post-day__month">Sep.</span>
+                                    </div>
+                                </a>
+                                <div class="post-dsc">
+                                    <a href="#">Lorem ipsum dolor sit amet</a>
+                                    <p>
+                                        Claritas est etiam processus dynamicus, qui sequitur
+                                        mutationem consuetudium.
+                                    </p>
+                                    <a href="#" class="read-more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="posts-list-item">
+                            <div class="post">
+                                <a href="#" style="background-image: url(image/post-2.png);" class="post-img">
+                                    <div class="post-img__overlay"></div>
+                                    <div class="post-day">
+                                        <span class="post-day__date">30</span>
+                                        <span class="post-day__month">Sep.</span>
+                                    </div>
+                                </a>
+                                <div class="post-dsc">
+                                    <a href="#">Lorem ipsum dolor sit amet</a>
+                                    <p>
+                                        Claritas est etiam processus dynamicus, qui sequitur
+                                        mutationem consuetudium.
+                                    </p>
+                                    <a href="#" class="read-more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="posts-list-item">
+                            <div class="post">
+                                <a href="#" style="background-image: url(image/post-3.png);" class="post-img">
+                                    <div class="post-img__overlay"></div>
+                                    <div class="post-day">
+                                        <span class="post-day__date">30</span>
+                                        <span class="post-day__month">Sep.</span>
+                                    </div>
+                                </a>
+                                <div class="post-dsc">
+                                    <a href="#">Lorem ipsum dolor sit amet</a>
+                                    <p>
+                                        Claritas est etiam processus dynamicus, qui sequitur
+                                        mutationem consuetudium.
+                                    </p>
+                                    <a href="#" class="read-more">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- recent-posts end -->
+            <!-- partners start -->
+            <section class="partners" style="background-image: url(image/partners-bg.png);">
+                <div class="container">
+                    <div class="partners-logo-carousel">
+                        <div class="partners-logo"><a href="#"><img src="image/partner-logo-1.png" alt=""></a></div>
+                        <div class="partners-logo"><a href="#"><img src="image/partner-logo-2.png" alt=""></a></div>
+                        <div class="partners-logo"><a href="#"><img src="image/partner-logo-3.png" alt=""></a></div>
+                        <div class="partners-logo"><a href="#"><img src="image/partner-logo-4.png" alt=""></a></div>
+                        <div class="partners-logo"><a href="#"><img src="image/partner-logo-1.png" alt=""></a></div>
+                        <div class="partners-logo"><a href="#"><img src="image/partner-logo-2.png" alt=""></a></div>
+                        <div class="partners-logo"><a href="#"><img src="image/partner-logo-3.png" alt=""></a></div>
+                        <div class="partners-logo"><a href="#"><img src="image/partner-logo-4.png" alt=""></a></div>
+                    </div>
+                </div>
+            </section>
+            <!-- partners end -->
+        </main>
+        <!-- main end -->
+        <!-- footer start -->
+        <footer id="footer">
+            <!-- main-footer-content start -->
+            <div class="main-footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col waxom">
+                            <a><img width="182" height="55" src="image/logo.swg" alt="waxom" />
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                                aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                                nostrud exerci suscipit lobortis claritatem.
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                        <div class="col footer-recent-posts">
+                            <h3>Recent Posts</h3>
+                            <a href="#">
+                                <time datetime="20015-09-08">September 08, 2015</time>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                                </p>
+                            </a>
+                            <a href="#">
+                                <time datetime="20015-09-08">September 08, 2015</time>
+                                <p>
+                                    Diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                                </p>
+                            </a>
+                            <a href="#">
+                                <time datetime="20015-09-08">September 08, 2015</time>
+                                <p>
+                                    Claritas est etiam processus dynamicus, qui sequitur
+                                    mutationem per seacula quarta decima
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col our-twitter">
+                            <h3>Our Twitter</h3>
+                            <a href="#">
+                                <p>
+                                    <span style="color: #0b7694;">@waxom</span> Cum soluta nobis eleifend option congue
+                                    nihil imperdiet doming
+                                </p>
+                                <span>3 mins ago</span></p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    Mirum est <span style="color: #0b7694;">#envato</span> notare quam littera gothica,
+                                    quam nunc putamus parum anteposuerit litterarum
+                                </p>
+                                <span>5 hours ago</span>
+                            </a>
+                            <a href="#">
+                                <p>Soluta nobis option <span style="color: #897b6b;">bit.ly/1Hniso7</span>
+                                </p>
+                                <span>20 days ago</span>
+                            </a>
+                        </div>
+                        <div class="col dribbble-widget">
+                            <h3>Dribbble Widget</h3>
+                            <div class="dribbble-widget-row">
+                                <div class="dribbble-widget-item">
+                                    <a href="#" class="dribbble-widget-item__photo"
+                                        style="background-image: url(image/widget-1.png);"></a>
+                                </div>
+                                <div class="dribbble-widget-item">
+                                    <a href="#" class="dribbble-widget-item__photo"
+                                        style="background-image: url(image/widget-2.png);"></a>
+                                </div>
+                                <div class="dribbble-widget-item">
+                                    <a href="#" class="dribbble-widget-item__photo"
+                                        style="background-image: url(image/widget-3.png);"></a>
+                                </div>
+                                <div class="dribbble-widget-item">
+                                    <a href="#" class="dribbble-widget-item__photo"
+                                        style="background-image: url(image/widget-4.png);"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- main-footer-content end -->
+            <!-- footer-rights start -->
+            <div class="footer-rights">
+                <div class="container">
+                    <div class="footer-rights-wrapper">
+                        <ul class="copyright">
+                            <li>Copyright © 2015 <span>Waxom</span></li>
+                            <li>Privacy Policy</li>
+                            <li><span class="faq">FAQ</span></li>
+                            <li>Support</li>
+                        </ul>
+                        <ul class="designed">
+                            <li>Designed by <span>ThemeFire</span></li>
+                            <li>Only on <span>Envato Market</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-rights end -->
+        </footer>
+        <!-- footer end -->
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.spincrement.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
