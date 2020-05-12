@@ -778,6 +778,12 @@ button:hover {
     padding: 0 125px;
 }
 
+@media screen and (max-width:768px) {
+    .video-player {
+        margin: 0 auto;
+    }
+}
+
 .popup-youtube {
     margin: 0 auto 40px;
     width: 90px;
