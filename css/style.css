@@ -186,6 +186,13 @@ button:hover {
     align-items: center;
 }
 
+@media screen and (max-width:768px) {
+    .header-wrapper {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
 .logo {
     display: block;
     width: 15%;
@@ -198,14 +205,27 @@ button:hover {
     }
 }
 
-nav {
-    width: 85%;
+.nav {
     display: flex;
     margin-left: 192px;
 }
 
+@media screen and (max-width:768px) {
+    .nav {
+        margin: 0;
+        justify-content: space-between;
+    }
+}
+
 .menu {
     display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:768px) {
+    .menu {
+        padding: 0 20px;
+    }
 }
 
 .menu li {
@@ -214,6 +234,12 @@ nav {
     font-weight: 100;
     line-height: 28px;
     margin: 0 27px 0 0;
+}
+
+@media screen and (max-width:768px) {
+    .menu li {
+        float: left;
+    }
 }
 
 .menu li a {
@@ -232,8 +258,8 @@ nav {
 
 @media screen and (max-width:768px) {
     .nav-cart {
-        align-items: center;
-        margin: 0 auto;
+        justify-content: flex-end;
+        align-items: baseline;
     }
 }
 
@@ -367,7 +393,7 @@ nav {
         width: 30px;
         height: 6px;
         margin: 4px auto;
-        background: #222;
+        background: #fff;
     }
 
     .show {
@@ -463,16 +489,11 @@ nav {
 /*banner start*/
 
 .banner {
-    height: 700px;
+    /* height: 700px; */
     background-color: #fbfaf8;
     text-align: center;
     color: #686767;
-}
-
-@media screen and (max-width:768px) {
-    .banner {
-        height: auto;
-    }
+    padding: 77px 0 0;
 }
 
 .banner-content {
@@ -482,16 +503,12 @@ nav {
     margin: 0 auto;
 }
 
-.banner-img {
-    display: block;
-    height: 490px;
-    width: 1236px;
-}
-
-@media screen and (max-width:768px) {
-    .banner-img {
-        display: none;
-    }
+.banner-content__img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left 50% bottom 0;
+    max-width: 1236px;
+    height: 372px;
 }
 
 /*banner end*/
@@ -1070,7 +1087,7 @@ nav {
 
 @media screen and (max-width:768px) {
     .post-dsc a {
-        font-size: 18px;
+        font-size: 15px;
         margin: 0 0 8px;
     }
 }
@@ -1201,7 +1218,7 @@ nav {
 }
 
 .partners-logo-carousel {
-    padding: 135px 0;
+    padding: 77px 0;
 }
 
 @media screen and (max-width:768px) {
