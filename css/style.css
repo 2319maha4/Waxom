@@ -508,7 +508,13 @@ button:hover {
     background-repeat: no-repeat;
     background-position: left 50% bottom 0;
     max-width: 1236px;
-    height: 372px;
+    height: 490px;
+}
+
+@media screen and (max-width:768px) {
+    .banner-content__img {
+        height: 260px;
+    }
 }
 
 /*banner end*/
