@@ -1,4 +1,4 @@
-### Waxom free PSD landing page
+### Waxom free PSD landing page (No pixel perfect, only Desktop)
 
 1. **css** - contains files with styles.
 2. **icomoon.css** - stylesheet that implements free IcoMoon font.
